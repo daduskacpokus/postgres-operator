@@ -45,7 +45,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/movetokube/postgres-operator:latest
-            ghcr.io/movetokube/postgres-operator:${{ env.DOCKER_TAG }}
-            movetokube/postgres-operator:${{ env.DOCKER_TAG }}
-            movetokube/postgres-operator:latest
+            ghcr.io/daduskacpokus/postgres-operator:latest
+            ghcr.io/daduskacpokus/postgres-operator:${{ env.DOCKER_TAG }}
+            daduskacpokus/postgres-operator:${{ env.DOCKER_TAG }}
+            daduskacpokus/postgres-operator:latest
